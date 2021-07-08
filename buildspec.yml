@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Nothing to do in the install phase...
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - echo Nothing to do in the post_build phase...
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: ./
+
