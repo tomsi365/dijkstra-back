@@ -15,6 +15,10 @@ app.post('/', (request, response,next)=>{
     response.send(res);	 // echo the result back
 });
 
+app.get('/', (request, response,next)=>{
+    response.send('');	 // echo the result back
+});
+
 function Dijkstra(graph,source)
 {
     let d=[graph.length]
