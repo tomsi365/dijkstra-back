@@ -1,7 +1,7 @@
 # dijkstra-back
 <br/>
 Node.js Server For Dijkstra Algorithm Simulator. <br/>
-Development Platform : Webstorm. <br/>
-Version Control Platform : GitHub . <br/>
-CICD Platform : AWS CodePipeLine. <br/>
-Deployment Platform : AWS Elastic Beanstalk. <br/>
+<br/>
+Side Project , <br/>
+I developed a Node.JS Server , <br/>
+By using : Javascript , Webstorm , GitHub , AWS CodePipeLine , AWS Elastic Beanstalk . <br/>
